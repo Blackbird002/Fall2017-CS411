@@ -1,0 +1,27 @@
+Default Constructor:                 1
+Capacity Constructor:                1
+Fill Constructor:                    1
+Copy Constructor:                    1
+Function getCapacity:                1
+Function getSize:                    1
+Function push_back:                  1
+Function pop_back:                   1
+Function resize (shrink):            1
+Function resize (grow):              1
+Function empty_array:                1
+Array expansion:                     1
+Square bracket l-value:              1
+Square bracket access:               1
+Operator Assignment:                 1
+Operator Equivalency(T):             1
+Operator Equivalency(F):             1
+Operator Less than(T):               1
+Operator Less than(F):               1
+Operator Greater than(T):            1
+Operator Greater than(F):            1
+Operator Less than or Equal(T):      1
+Operator Less than or Equal(E):      1
+Operator Less than or Equal(F):      1
+Operator Greater than or Equal(T):   1
+Operator Greater than or Equal(E):   1
+Operator Greater than or Equal(F):   1

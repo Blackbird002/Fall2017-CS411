@@ -1,0 +1,141 @@
+
+***************************************************************************
+----------------------Testing the DayOfYear Class!-------------------------
+***************************************************************************
+
+___________________________________________________________________________
+The initialized dates are: 
+December 30
+May 1
+May 1
+January 1
+
+___________________________________________________________________________
+Testing declaration of DayOfYear object given invalid date: 
+DayOfYear badDate(99,99); 
+
+Illegal month value!
+Changed the month to the default value of 1. 
+
+Illegal day value!
+Changed the day to the default value of 1. 
+Result: January 1
+
+___________________________________________________________________________
+Testing the overloaded '+' operator with two DayOfYear objects: 
+December 30 + May 1 = 
+Result: June 1
+
+___________________________________________________________________________
+Testing the overloaded '+' operator with an int: 
+January 30 + 1 = 
+Result: February 1
+
+1 + December 30 = 
+Result: January 1
+
+___________________________________________________________________________
+Testing the overloaded '>' operator with two DayOfYear objects: 
+December 30 > May 1
+Result: True! 
+
+May 1 > December 30
+Result: False! 
+
+May 5 > May 5
+Result: False! 
+
+___________________________________________________________________________
+Testing the overloaded '<' operator with two DayOfYear objects: 
+December 30 < May 1
+Result: False! 
+
+May 1 < December 30
+Result: True! 
+
+May 5 < May 5
+Result: False! 
+
+___________________________________________________________________________
+Getting the total amount of days from a DayOfYear objects: 
+May 1
+Result: 121 day(s) in this object.
+
+___________________________________________________________________________
+Testing the overloaded '==' operator with two DayOfYear objects: 
+December 30 == May 1
+Result: False! 
+
+May 5 == May 5
+Result: True! 
+
+___________________________________________________________________________
+Testing the overloaded '-' operator with two DayOfYear objects: 
+June 25 - June 23
+Result: 2
+
+February 25 - August 23
+The left operand is < than the right operand!
+Returning the default value of 0. 
+Result: 0
+
+___________________________________________________________________________
+Testing the overloaded '<<' ostream operator using a DayOfYear object: 
+Result: January 1
+
+___________________________________________________________________________
+Testing the overloaded 'unary -' operator using a DayOfYear object: 
+ -January 1
+Result: December 30
+
+___________________________________________________________________________
+Testing the overloaded 'prefix ++ operator' using a DayOfYear object: 
+++ December 30
+Result: January 1
+
+++ April 11
+Result: April 12
+
+___________________________________________________________________________
+Testing the overloaded 'postfix ++ operator' using a DayOfYear object: 
+December 30 ++ 
+Result: January 1
+
+___________________________________________________________________________
+Testing the overloaded 'prefix -- operator' using a DayOfYear object: 
+-- January 1
+Result: December 30
+
+___________________________________________________________________________
+Testing the overloaded 'postfix -- operator' using a DayOfYear object: 
+December 30 -- 
+Result: December 29
+
+___________________________________________________________________________
+Testing the overloaded '[]' using a DayOfYear object: 
+May 25
+Results: 
+[1] - Month: 5
+[2] - Day: 25
+[3] - Day of year: 145
+[ 4] - Invalid Input of '4': -1
+
+___________________________________________________________________________
+Testing the overloaded '>>' using a DayOfYear object: 
+Enter a date (mm/dd, m/dd, mm/d, m/d): 
+Result: September 1
+
+Enter a date (mm/dd, m/dd, mm/d, m/d): 
+Result: September 1
+
+Enter a date (mm/dd, m/dd, mm/d, m/d): 
+Result: December 7
+
+Enter a date (mm/dd, m/dd, mm/d, m/d): 
+Result: April 14
+
+
+***************************************************************************
+------------------------------END OF TEST----------------------------------
+***************************************************************************
+
